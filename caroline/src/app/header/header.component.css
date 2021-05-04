@@ -1,0 +1,12 @@
+.header-container {
+    position: relative;
+    height: 100vh;
+   
+}
+
+#image-top{
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 1200px;
+}

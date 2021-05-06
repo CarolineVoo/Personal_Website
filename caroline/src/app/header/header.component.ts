@@ -12,4 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  click(): void {
+    console.log('Hello');
+  }
 }

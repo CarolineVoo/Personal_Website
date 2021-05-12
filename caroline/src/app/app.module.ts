@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IntroComponent } from './intro/intro.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { TimelineBoxComponent } from './timeline/timeline-box/timeline-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    IntroComponent
+    IntroComponent,
+    TimelineComponent,
+    TimelineBoxComponent
   ],
   imports: [
     BrowserModule,

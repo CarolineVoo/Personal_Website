@@ -8,9 +8,42 @@
     position: relative;
 }
 
+.nav {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index:10;
+}
+
+.nav-list li {
+    display: inline;
+    z-index: 10;
+    padding: 0 50px;
+    border-left: 1px solid #d8ede7;
+    font-weight: 100px;
+}
+
+.nav-list li:first-of-type {
+    border: 0;
+}
+
+.nav-list li a {
+    color: #d8ede7;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-list li a:hover {
+    color: #ffb300;
+}
+
 .content {
     width: 50%;
-    margin: 230px auto;
+    margin: 20vh auto;
     text-align: center;
 }
 
@@ -37,9 +70,16 @@ p::after {
 }
 
 .content img {
-    margin-top: 80px;
-    width: 500px;
+    margin-top: 30px;
+    margin-left: 100    px;
+    width: 400px;
   
+}
+
+.arrow-container {
+    width: 100%; 
+    margin: -1% auto 0px auto; 
+    text-align: center;
 }
 
 #arrow {

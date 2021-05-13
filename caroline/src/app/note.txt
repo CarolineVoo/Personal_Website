@@ -1,0 +1,14 @@
+
+Hobby:
+- I am a physically active person who loves sports. Taekwondo was my first hobby. After 7 years, I had to give up martial arts due to lack of free time.
+
+
+font title:
+- font-weight: 300;
+- font-size: 35px;
+
+
+
+
+
+

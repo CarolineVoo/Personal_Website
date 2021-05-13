@@ -3,7 +3,8 @@
         <img class="time-img" [src]="image"/> 
         <div class="content">
             <span class="vertical">
-                <h2>{{title}}</h2>
+                <h2>{{title}} <span class="year"> 
+                <br *ngIf="yearFromTo.length > 6"/>({{yearFromTo}})</span></h2>
                 <p>{{content}}</p>
             </span> 
         </div>
@@ -15,7 +16,8 @@
         <img class="time-img" [src]="image"/>
         <div class="content">
             <span class="vertical">
-                <h2>{{title}}</h2>
+                <h2>{{title}} <span class="year"> 
+                <br *ngIf="yearFromTo.length > 6"/>({{yearFromTo}})</span></h2>
                 <p>{{content}}</p>
             </span> 
         </div> 

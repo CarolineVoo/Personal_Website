@@ -77,11 +77,13 @@ p::after {
 }
 
 .arrow-container {
-    width: 100%; 
-    margin: -1% auto 0px auto; 
+    position: absolute;
+    bottom: 35px;
     text-align: center;
+    width: 100%;
 }
 
 #arrow {
     width: 45px;
+    margin: 0 auto;
 }

@@ -11,6 +11,7 @@ export class TimelineBoxComponent implements OnInit {
   @Input() image: string;
   @Input() title: string;
   @Input() content: string;
+  @Input() yearFromTo: string;
 
   constructor() { }
 

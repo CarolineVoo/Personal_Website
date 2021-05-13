@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { IntroComponent } from './intro/intro.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { TimelineBoxComponent } from './timeline/timeline-box/timeline-box.component';
+import { HobbyComponent } from './hobby/hobby.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TimelineBoxComponent } from './timeline/timeline-box/timeline-box.compo
     HeaderComponent,
     IntroComponent,
     TimelineComponent,
-    TimelineBoxComponent
+    TimelineBoxComponent,
+    HobbyComponent
   ],
   imports: [
     BrowserModule,

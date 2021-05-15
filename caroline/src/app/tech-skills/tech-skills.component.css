@@ -1,0 +1,62 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    height: 700px;
+
+}
+
+.wrapper {
+    width: 1400px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.tech-img {
+    width: 150px;
+    height: auto;
+}
+
+.skill {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin: 0px 2px;
+    content: "";
+    vertical-align: middle; 
+    background-color: #3f5751;
+}
+
+.noSkill {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin: 0px 2px;
+    content: "";
+    vertical-align: middle; 
+    background-color: #92b3aa;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    margin: 20px 10px;
+    padding: 20px;
+    /* width: 240px; */
+  }

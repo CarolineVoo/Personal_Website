@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="wrapper">
+        <h1>Web Technology Skills</h1>
+        <div class="grid-container">
+            <div *ngFor="let items of technology" class="grid-item">
+                <h3>{{items.title}}</h3>
+                <img class="tech-img"[src]="items.img" />
+                <div>
+                    <span>Skill:</span>
+                    <span *ngFor="let skill of items.skills">
+                        <span *ngFor="let level of skill.level" class="skill"></span>
+                    </span>
+                    <span *ngFor="let skill of items.skills">
+                        <span *ngFor="let level of skill.noLevel" class="noSkill"></span>
+                    </span>
+                </div>
+                
+                <p>{{items.content}}</p>
+                <a [href]="items.url">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>

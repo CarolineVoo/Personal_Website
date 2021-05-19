@@ -1,6 +1,6 @@
 .container {
     background-color: #658078;
-    height: 770px;
+    height: 800px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     position: relative;
@@ -26,7 +26,6 @@ h1 {
     height: 500px;
     padding-top: 90px;
 }
-
 
 .content {
     display: table;

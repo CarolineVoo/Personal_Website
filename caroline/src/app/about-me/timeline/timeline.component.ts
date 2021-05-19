@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'timeline',
@@ -11,6 +12,7 @@ export class TimelineComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    AOS.init();
     this.timeLine = [
       {
         year: 1998,

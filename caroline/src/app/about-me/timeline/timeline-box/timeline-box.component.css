@@ -62,3 +62,15 @@ p {
     display: table-cell;
     vertical-align: middle;
 }
+
+
+@media only screen and (min-width: 1900px) {
+    .right {
+        right: 200px;
+    }
+    
+    .left {
+        left: 200px
+    }
+    
+  }
